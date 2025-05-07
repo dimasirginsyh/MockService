@@ -10,7 +10,7 @@ from pathlib import Path
 
 app = FastAPI()
 
-redis_client = redis.Redis(host='0.0.0.0', port=30073, db=0, password='123123')
+redis_client = redis.Redis(host='localhost', port=6379, db=0, password='YOUR PASSWORD') # Make sure the host, port, and password match your config.
 
 def init_db():
     conn = sqlite3.connect('db/mock.db')
