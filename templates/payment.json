@@ -1,0 +1,6 @@
+{
+  "transaction_id": "txn-{{uuid}}",
+  "amount": 100.50,
+  "currency": "USD",
+  "timestamp": "{{timestamp}}"
+}
